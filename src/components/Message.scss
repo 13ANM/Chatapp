@@ -1,0 +1,29 @@
+@import '../variables';
+
+.message {
+	display: flex;
+	align-items: center;
+	padding: 20px;
+	color: white;
+	background: hsl(240, 6%, 14%);
+	margin-bottom: 0.2rem;
+
+	&:hover {
+		background: $darkClr4;
+	}
+
+	& p {
+		font-size: 0.92rem;
+		padding-top: 0.2rem;
+	}
+}
+
+.message__info {
+	margin-left: 20px;
+}
+
+.message__timestamp {
+	color: $darkClr6;
+	margin-left: 20px;
+	font-size: x-small;
+}

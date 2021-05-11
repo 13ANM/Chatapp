@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+$roboto: 'Roboto', sans-serif;
+
+@mixin nonSelectable {
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+@mixin translateCenter {
+	top: 50%;
+	left: 50%;
+	translate: transform(-50%, -50%);
+}
+
+$compShadow: rgba(0, 0, 0, 0.08) 0px 4px 12px;
+$compShadow2: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px,
+	rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+$compShadow3: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+
+$darkClr1: hsl(240, 7%, 6%);
+$darkClr2: hsl(240, 6%, 10%);
+$darkClr3: hsl(240, 6%, 13%);
+$darkClr4: hsl(240, 4%, 17%);
+$darkClr5: hsl(240, 2%, 28%);
+$darkClr6: hsl(240, 1%, 36%);
+
+$lightClr1: hsl(240, 7%, 94%);
+$lightClr2: hsl(240, 1%, 76%);
+
+$purpleMain: hsl(261, 75%, 32%);
+$purpleHover: hsl(261, 75%, 45%);

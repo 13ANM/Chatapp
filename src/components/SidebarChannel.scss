@@ -1,0 +1,49 @@
+@import '../variables';
+
+.sidebarChannel {
+	display: flex;
+	align-items: center;
+	height: 2.5rem;
+	padding: 0.1rem;
+	width: 100%;
+	font-size: 0.85rem;
+	margin-bottom: 1px;
+	color: $lightClr1;
+	background: $darkClr3;
+	cursor: pointer;
+
+	&:hover {
+		background: $purpleMain;
+	}
+
+	&:hover > span {
+		color: $lightClr1;
+	}
+
+	& span {
+		display: flex;
+		justify-content: center;
+		font-size: 1.2rem;
+		width: 3rem;
+		color: $purpleHover;
+		margin-right: 0.5rem;
+	}
+
+	& h4 {
+		flex: 1;
+	}
+}
+
+button:focus {
+	background: red;
+}
+
+@media only screen and (max-width: 850px) {
+	.sidebarChannel {
+		font-size: 0.75rem;
+	}
+
+	.sidebarChannel > span {
+		font-size: 1rem;
+	}
+}
